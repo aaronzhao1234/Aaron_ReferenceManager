@@ -1,0 +1,21 @@
+<?xml  version="1.0"?>
+<reference>
+ <referenceStyle referenceStyle="1"/>
+ <referenceSet>
+ <!--one or more reference-->
+	<referenceElement referenceNum="1" >
+	 <referenceType referenceType="1"/>
+	 <referenceDetail initialAndSurname="A. Zhao" bookTitle="Book does not exist" edition="1" city="Sheffield" country="UK" publisher="myself" year="2019"/>
+	</referenceElement>
+	
+	<referenceElement referenceNum="2" >
+	 <referenceType referenceType="1"/>
+	 <referenceDetail initialAndSurname="A. Zhao and H.S. Lai" bookTitle="Book also does not exist" edition="2" city="Sheffield" country="UK" publisher="myself" year="2019"/>
+	</referenceElement>
+	
+  <referenceElement referenceNum="3" >
+	 <referenceType referenceType="2"/>
+	 <referenceDetail initialAndSurname="A. Zhao" chapterTitle="love" bookTitle="Book also does not exist" edition="2" editorInitialAndSurname="H.S. Lai" city="Sheffield" country="UK" publisher="myself" year="2019" pageStart="12" pageEnd="15"/>
+	</referenceElement>
+ </referenceSet>
+</reference>
