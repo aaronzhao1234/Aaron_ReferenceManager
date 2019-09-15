@@ -19,7 +19,7 @@ int main()
 
 //----------OPEN XML File------------------------------------------------------------------------------------------------------------------------------------------------------//
     xml_document referenceManagerDocument;
-    xml_parse_result referenceLoadResult=referenceManagerDocument.load_file("/home/aaronzhao/Dropbox/aaron's reference manager/referenceManager/xml_design/singleAutherBookExample.xml");
+    xml_parse_result referenceLoadResult=referenceManagerDocument.load_file("/home/aaronzhao/Dropbox/aaron_reference_manager/referenceManager/xml_design/Example.xml");
     if(referenceLoadResult.status != status_ok){
         cout << "load reference error" << endl;
     }

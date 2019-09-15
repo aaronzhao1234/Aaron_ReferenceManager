@@ -15,7 +15,13 @@
 	
   <referenceElement referenceNum="3" >
 	 <referenceType referenceType="2"/>
-	 <referenceDetail initialAndSurname="A. Zhao" chapterTitle="love" bookTitle="Book also does not exist" edition="2" editorInitialAndSurname="H.S. Lai" city="Sheffield" country="UK" publisher="myself" year="2019" pageStart="12" pageEnd="15"/>
+	 <referenceDetail initialAndSurname="A. Zhao" chapterTitle="lov" bookTitle="Book also does not exist" edition="2" editorInitialAndSurname="H.S. Lai" city="Sheffield" country="UK" publisher="myself" year="2019" pageStart="12" pageEnd="15"/>
 	</referenceElement>
+
+  <referenceElement referenceNum="4" >
+	 <referenceType referenceType="3"/>
+	 <referenceDetail initialAndSurname="A. Zhao" articleTitle="love" journalTitleAbbr="Lovers" vol="15" no="1" pageStart="12" pageEnd="15" monthAbbr="Apr" year="2019" URL="www.aaronlovebonnie.co.uk" DOI=""/>
+	</referenceElement>
+
  </referenceSet>
 </reference>

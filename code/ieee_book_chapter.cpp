@@ -50,10 +50,13 @@ bool ieeeBookChapter (xml_node& referenceInstance, FILE* pFile)
 
            if (iPageStart==iPageEnd)
            {
-               fprintf (pFile, "p. %u.", iPageStart);
+               fprintf (pFile, "p. %u.\n", iPageStart);
            }
 
            else {
-               fprintf (pFile, "pp. %u-%u.", iPageStart, iPageEnd);
+               fprintf (pFile, "pp. %u-%u.\n", iPageStart, iPageEnd);
            }
+
+  return true;
+
 }
