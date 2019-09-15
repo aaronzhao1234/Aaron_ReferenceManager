@@ -19,14 +19,23 @@ tick   3, add functions to eliminate long pages of codes
 
 *****************************************************************************************************************************
 
-11/09/2019
+13/09/2019
 
 the second style, harvard, is added 
 now can print time on the first line
 
 TODO
 
-      1, add the harvard type
-      2, create the GUI
+      1, add IEEE type
+      2, add the harvard type
+      3, create the GUI
 
 ******************************************************************************************************************************
+
+15/09/2019
+
+added the third reference type, Journal electronic, to IEEE
+xml up-to-date
+
+******************************************************************************************************************************
+
