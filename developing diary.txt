@@ -1,0 +1,32 @@
+
+
+*****************************************************************************************************************************
+23/06/2019
+version 1 xml is finished. contain only one style, IEEE, and only one type, book with asingle auther.
+the reference manager RM can pharse info from xml file and generate a txt document as required. 
+
+******************************************************************************************************************************
+24/06/2019
+example xml is now added with a second reference. the program perform as required to show the second one.
+add "case switch" function to RM to have multiple reference type.
+ 
+TODO:
+
+tick   1, add a second reference type. 
+tick   2, apply "case switch" to the reference style in order to have a second style.
+tick   3, add functions to eliminate long pages of codes
+?      4, italic in book title
+
+*****************************************************************************************************************************
+
+11/09/2019
+
+the second style, harvard, is added 
+now can print time on the first line
+
+TODO
+
+      1, add the harvard type
+      2, create the GUI
+
+******************************************************************************************************************************
