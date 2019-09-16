@@ -3,7 +3,8 @@
 #include "outputreference.h"
 #include "ieee_book.h"
 #include "ieee_book_chapter.h"
-#include "ieee_journal_electronic.h"
+#include "ieee_journal.h"
+#include "ieee_standard.h"
 
 #include <pugixml/pugixml.hpp>
 #include <ctime>
@@ -54,12 +55,19 @@ bool outputReference (xml_node& referenceRootElement,  FILE* pFile)
       }
  //-------------------------------------------------------------------------------------------------------------------------------------------------------
 
-//-----------------------------------------------------CASE2_BOOK_CHAPTER---------------------------------------------------------------------------------
+//-----------------------------------------------------CASE3_JOURNAL---------------------------------------------------------------------------
        case 3 :{
-            ieeeJournalElectronic (referenceInstance, pFile);
+            ieeeJournal (referenceInstance, pFile);
          break;
       }
-//-------------------------------------------------------------------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//-----------------------------------------------------CASE4_STANDARDS---------------------------------------------------------------------------
+        case 4 :{
+             ieeeStandard (referenceInstance, pFile);
+          break;
+      }
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
      }//SWITCH type
     }
        break;
@@ -73,7 +81,6 @@ bool outputReference (xml_node& referenceRootElement,  FILE* pFile)
    case 2 :
    {
        fprintf(pFile, "reference style: Harvard\n");
-
        break;
    }//style 2
 
