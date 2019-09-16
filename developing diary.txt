@@ -26,7 +26,7 @@ now can print time on the first line
 
 TODO
 
-      1, add IEEE type
+tick  1, add IEEE type
       2, add the harvard type
       3, create the GUI
 
@@ -40,4 +40,21 @@ added standard type
 xml up-to-date
 
 ******************************************************************************************************************************
+
+16/09/2019
+
+added the technical reports and web page type
+IEEE frequently used type finished
+
+******************************************************************************************************************************
+
+
+
+
+
+
+
+
+
+
 

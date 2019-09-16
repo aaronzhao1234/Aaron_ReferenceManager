@@ -37,5 +37,21 @@
 	 <referenceType referenceType="4"/>
 	 <referenceDetail standardTitle="love" standardNumber="L0v3" year="2019" online="true" URL="" DOI="DOILOVE"/>
 	</referenceElement>
+
+  <referenceElement referenceNum="8" >
+	 <referenceType referenceType="5"/>
+	 <referenceDetail initialAndSurname="A. Zhao" reportTitle="love" InstTiTitleAbbr="LV" city="sheffield" country="UK" reportNo="love365" monthAbbr="Apr" year="2019" online="false" URL="" DOI=""/>
+	</referenceElement>
+
+  <referenceElement referenceNum="9" >
+	 <referenceType referenceType="5"/>
+	 <referenceDetail initialAndSurname="A. Zhao" reportTitle="love" InstTiTitleAbbr="LV" city="sheffield" country="UK" reportNo="love365" monthAbbr="Apr" year="2019" online="true" URL="www.aaronlovesbonnie.co.uk" DOI=""/>
+	</referenceElement>
+
+ <referenceElement referenceNum="10" >
+	 <referenceType referenceType="6"/>
+	 <referenceDetail initialAndSurname="A. Zhao" webPageTitle="love" websiteTitle="LV" monthAbbr="Apr"  day= "1" year="2018" URL="www.aaronlovesbonnie.co.uk" monthAbbrAccessed="sept" dayAccessed="16" yearAccessed="2019"/>
+  </referenceElement>
+ 
  </referenceSet>
 </reference>
