@@ -4,7 +4,8 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-    ieee_journal_electronic.cpp \
+    ieee_journal.cpp \
+    ieee_standard.cpp \
     referenceManager.cpp \
     pugixml/pugixml.cpp \
     outputreference.cpp \
@@ -12,7 +13,8 @@ SOURCES += \
     ieee_book_chapter.cpp
 
 HEADERS += \
-    ieee_journal_electronic.h \
+    ieee_journal.h \
+    ieee_standard.h \
     pugixml/pugiconfig.hpp \
     pugixml/pugixml.hpp \
     outputreference.h \

@@ -35,6 +35,8 @@ TODO
 15/09/2019
 
 added the third reference type, Journal electronic, to IEEE
+added Journal Print to IEEE and combine Journal electronic and print into one type, Journal.
+added standard type
 xml up-to-date
 
 ******************************************************************************************************************************

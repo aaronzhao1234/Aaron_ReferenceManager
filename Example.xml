@@ -20,8 +20,22 @@
 
   <referenceElement referenceNum="4" >
 	 <referenceType referenceType="3"/>
-	 <referenceDetail initialAndSurname="A. Zhao" articleTitle="love" journalTitleAbbr="Lovers" vol="15" no="1" pageStart="12" pageEnd="15" monthAbbr="Apr" year="2019" URL="www.aaronlovebonnie.co.uk" DOI=""/>
+	 <referenceDetail initialAndSurname="A. Zhao" articleTitle="love" journalTitleAbbr="Lovers" vol="15" no="1" pageStart="12" pageEnd="15" monthAbbr="Apr" year="2019" online="true" URL="www.aaronlovebonnie.co.uk" DOI=""/>
 	</referenceElement>
 
+  <referenceElement referenceNum="5" >
+	 <referenceType referenceType="3"/>
+	 <referenceDetail initialAndSurname="A. Zhao" articleTitle="love" journalTitleAbbr="Lovers" vol="15" no="1" pageStart="12" pageEnd="15" monthAbbr="Apr" year="2019" online="false" URL="" DOI=""/>
+	</referenceElement>
+
+  <referenceElement referenceNum="6" >
+	 <referenceType referenceType="4"/>
+	 <referenceDetail standardTitle="love" standardNumber="L0v3" year="2019" online="false" URL="" DOI=""/>
+	</referenceElement>
+
+  <referenceElement referenceNum="7" >
+	 <referenceType referenceType="4"/>
+	 <referenceDetail standardTitle="love" standardNumber="L0v3" year="2019" online="true" URL="" DOI="DOILOVE"/>
+	</referenceElement>
  </referenceSet>
 </reference>
